@@ -1,0 +1,115 @@
+.fotoCapa{
+    width: 100%
+}
+
+.home {
+    background: #7B87C2;
+}
+
+.emDestaque {
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    color: #fff;
+}
+
+.artistas{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.artista{
+    list-style-type: none;
+}
+
+.artistaBox {
+    max-width: 100%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.artistaBox img {
+    width: 100%;
+    border-radius: 7rem;
+}
+
+.nomeArtista {
+    text-transform: capitalize;
+    color: #fff;
+    margin-bottom: .25rem;
+    text-align: center;
+    font-size: 1.35rem;
+}
+
+.nomeObra {
+    color: #fff;
+    margin-bottom: .5rem;
+    margin-top: .5rem;
+    text-align: center;
+    font-size: 2.25rem;
+}
+
+.imagens {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.imagem {
+    list-style-type: none;
+}
+
+.imagemBox {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.imagemBox img {
+    width: 100%;
+    border-radius: 2rem;
+}
+
+
+.emDestaque {
+    margin-top: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+@media screen and (min-width: 350px) {
+    .artistas{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .imagens {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .artistas{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .imagens {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .artistas{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .imagens {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .artistas{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .imagens {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}

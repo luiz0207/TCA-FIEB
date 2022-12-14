@@ -1,0 +1,142 @@
+
+.capaArtista {
+    width: 100%;
+    height: auto;
+}
+
+.artista {
+    background: #7B87C2;
+}
+
+.fotoArtista {
+    width: 7rem;
+    height: 7rem;
+    border-radius: 8rem;
+    margin-top: 5.05rem;
+    margin-left: 1.5rem;
+}
+
+.space {
+    height: 5rem;
+}
+
+.fotoCapa {
+    background-image: url("banner.jpg");
+    width: 100%;
+    height: 100%;
+}
+
+.nomeArtista {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-size: 1.65rem;
+    color: #fff;
+}
+
+.categoriaArtista{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-size: 0.95rem;
+    color: #fff;
+}
+
+.biografiaArtista {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 1.5rem;
+    font-size: 0.85rem;
+    color: #fff;
+}
+
+.seguirBotao {
+    padding: 0.5rem 1rem;
+    font-size: 1.65rem;
+    color: #fff;
+    background-color: #6c79db;
+    border: none;
+    border-radius: 7rem;
+    position: absolute;
+    top: 15rem;
+    right: 4rem;
+}
+
+.telaObras {
+    margin: 0;
+}
+
+.obras{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.obra {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin: .5rem;
+    border-radius: 1rem;
+}
+
+.obra img{
+    border-radius: 1rem;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.nomeObra {
+    color: #000;
+    margin-bottom: .25rem;
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+
+@media screen and (min-width: 380px) {
+    .obras{
+        grid-template-columns: 1fr 1fr;
+    }
+    .fotoArtista {
+        width: 10rem;
+        height: 10rem;
+        border-radius: 8rem;
+        margin-top: 4.05rem;
+        margin-left: 1.5rem;
+    }    
+}
+
+@media screen and (min-width: 576px) {
+    .obras{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .fotoArtista {
+        width: 10rem;
+        height: 10rem;
+        border-radius: 8rem;
+    }   
+}
+
+@media screen and (min-width: 768px) {
+    .obras{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .fotoArtista {
+        width: 10rem;
+        height: 10rem;
+        border-radius: 8rem;
+    }   
+}
+
+@media screen and (min-width: 992px) {
+    .obras{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .fotoArtista {
+        width: 11rem;
+        height: 11rem;
+        border-radius: 8rem;
+    }   
+}

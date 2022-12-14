@@ -1,0 +1,15 @@
+.principaisArtistas, .nossosArtistas {
+    background: #2d2d2d;
+}
+
+.content {
+    background: #2d2d2d;
+}
+
+.telinhaArtistas img {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 8rem;
+    margin-top: 4.05rem;
+    margin-left: 1.5rem; 
+}
